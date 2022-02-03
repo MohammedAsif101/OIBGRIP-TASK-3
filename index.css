@@ -1,0 +1,56 @@
+body{
+    background-image: url(bgimage.jpeg;);
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 30px;
+    border-radius: 30px;
+    background-color: skyblue;
+    border-color: chartreuse;
+}
+
+body {
+    background-image: url('bgimage.jpeg');
+  }
+
+.calci{
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background: black;
+    padding: 15px;
+    color: black;
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+    
+}
+
+input[type=button]{
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: blue;
+    background-color: black;
+}
+
+input:hover{
+   background: linear-gradient(#14ffe9,#ff3b3b)
+   animation: rotate 1.5s linear infinite;
+}
+
+
+#del{
+    width: 100%;
+}
